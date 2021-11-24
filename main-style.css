@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('image.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+    text-justify: auto;
+    padding: 10px;
+}
+.button{
+    width:400px;
+    padding: 20% 0 0;
+    margin:auto
+}
+.form{
+    position: relative;
+    z-index: 1;
+    max-width:360px;
+    margin:0 auto 100px;
+    padding: 45px;
+}
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 1;
+    background:#cfdacf;
+    margin: 0 0 15px;
+    border: 0;
+    padding: 15px;
+    color:rgb(110, 91, 91);
+    font: size 14px;
+    cursor: pointer;
+}
